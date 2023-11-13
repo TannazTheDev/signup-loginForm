@@ -1,0 +1,25 @@
+/*Index.html :*/
+.main-button {
+    padding: 10px;
+    background-color: rgb(119, 85, 153);
+}
+
+a {
+    text-decoration: none;
+}
+
+/*sign-up.html*/
+label {
+    display: block;
+}
+
+* {
+    padding: 15px;
+    color: rgb(0, 0, 0);
+}
+
+div {
+    background-color: aqua;
+    border-radius: 25px;
+    width: min-content;
+}

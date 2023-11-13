@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div class="parent-signup">
+        <label class="labelBlock" for="">Username: </label><input id="Username"  type="text">
+        <label class="labelBlock" for="">Password: </label><input id="Password" type="text">
+        <label class="labelBlock" for="">Gender: </label>
+        Male<input type="radio" name="gender" value="Female" id="famel">
+        Female<input type="radio" name="gender" value="Male" id="male">
+        <button style="display: block;" type="submit" onclick="GetInfoSignUp()">Sign-up</button>
+        <p id="now-login"></p>
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>
